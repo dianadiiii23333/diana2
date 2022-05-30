@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+}
+header {
+    background: #ff005724;
+   
+}
+
+#nkar24 {
+    height: 70%;
+    width: 100px;
+}
+
+nav {
+    display: inline-block;
+    vertical-align:top;
+    margin-top: 50px;
+    margin-left: 10%;
+}
+nav a {
+    color:#f9278899;
+    font-size:large;
+    font-family:fantasy;
+    text-align-last: none;
+    margin-left: 50px;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+header form  {
+    display:inline-block;
+    vertical-align: top;
+    margin-top: 39px;
+    margin-left: 10%;
+}
+
+header form input {
+    height: 35px;
+    width: 220px;
+    border-radius: 20px;
+    outline: 2px solid #000;
+    font-size: 20px;
+    padding-left: 20px;
+}
+#cover {
+    background-image: url(nkar21.jpg);
+    height: 750px;
+    background-size:100%;
+    transition: 2s;
+    
+}
+#cover:hover {
+    background-size: 110%;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 10%;
+    padding-left: 35%;
+    font-size: 70px;
+    font-weight: 900;
+    font-family:serif;
+    color:#000;
+    text-shadow: 200px 50px #ffdbe7;
+}
+h2 {
+    margin: 0;
+    text-shadow: 20px 20px #ffdbe7
+}
+main {
+    text-align: center;
+}
+main h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+main .pro-item {
+    width: 300px;
+    min-height:350px;
+    border: 2px solid #000;
+    display: inline-block;
+    margin: 30px;
+}
+main .pro-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;    
+}
+main .pro-item img {
+    font-size: 25px;
+    font-family: cursive;
+    
+
+}
+main .pro-item span {
+    font-weight: bold;
+    font-size: 25px;
+    color: deeppink;
+}
+main .pro-item  button {
+    display: block;
+    width: 100%;
+    height: 35px;
+    background-color: #e91e635e;
+    margin-top: 8px;
+    font-size: 17px;
+    cursor: pointer;
+    
+}
+main .pro-item  button:hover {
+    background-color: #c43e6b;
+    transition: .6s;
+}
+footer {
+    text-align: center;
+    background-color: #413b3d;
+    color: #cb9ede;
+    padding: 30px;
+}
+ 
+#a2 {
+    font-family:sans-serif;
+    font-size: 20px;
+}
+#a3 {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+    
+    
+    
+    
+    
